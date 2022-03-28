@@ -1,0 +1,4 @@
+# MODIFICAR FILAS / ACTUALIZAR DATOS  #
+
+UPDATE usuarios SET fecha = CURDATE(); # SE CAMBIA LA FECHA DE TODOS#
+UPDATE usuarios SET fecha = '2019-07-09', apellidos = 'CANDO' WHERE id = 4;
